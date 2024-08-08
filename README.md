@@ -9,7 +9,6 @@ This project investigates the impact of adverse news on credit rating changes fo
 ## Data Sources
 
 - **Credit Ratings Data:** Monthly S&P credit ratings for S&P 500 companies (File: `ratings_raw_data.csv`).
-- **Rating Improvement:** Any kind of news - positive, negative or neutral - does not correlate with a credit rating improvement.
 - **Adverse News Data:** Retrieved using a custom Google Search API, analyzed for sentiment using FinBERT.
 
 ## Key Steps
@@ -21,7 +20,8 @@ This project investigates the impact of adverse news on credit rating changes fo
 ## Key Findings
 
 - **Sensitivity of High Ratings:** High credit ratings (e.g., AA+) show more predictable migration trends.
-- **News Impact:** Preliminary analysis suggests a correlation between adverse news and credit rating changes, though data limitations affect the robustness of these findings.
+- **Rating Improvement:** Any kind of news - positive, negative or neutral - does not correlate with a credit rating improvement.
+- **FinBERT Performance** FinBERT does a good job on classifying the positive news. None of the instances of a positive classification lead to a credit rating deterioration.
 
 ## Future Work
 
