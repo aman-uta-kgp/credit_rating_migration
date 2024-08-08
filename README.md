@@ -25,9 +25,7 @@ This project investigates the impact of adverse news on credit rating changes fo
 
 ## Future Work
 
-- Expand the dataset and timeframe.
 - Use more extensive API options for news extraction.
 - Integrate additional sentiment analysis tools.
 
-For detailed analysis and methodology, refer to the [project documentation](link-to-detailed-documentation).
 
